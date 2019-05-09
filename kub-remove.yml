@@ -1,0 +1,5 @@
+- hosts: kubs
+  become: yes
+  tasks:
+    - name: uninstall kubernetes-client.x86_64 
+      command: yum remove - y kubernetes-client.x86_64
