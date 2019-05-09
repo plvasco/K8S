@@ -5,4 +5,4 @@
       command: swapoff -a
 
     - name: join cluster
-      command: kubeadm join 192.168.0.28:6443 --token qcss0v.4p87xuhgzx6u5jrs \ --discovery-token-ca-cert-hash sha256:ac6c57bf42179e85ffa1dc25446577a38d3c5a9a0471aaca950ad5f5a3d5c8bd
+      command: 

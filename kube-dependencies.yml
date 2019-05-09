@@ -11,7 +11,6 @@
    - name: disable swap
      command: swapoff -a
 
- 
    - name: install Docker
      yum:
        name: docker
@@ -71,3 +70,5 @@
   tasks:
    - name: install kubectl
      command: yum install -y kubectl
+   - name: hostname change
+     command: hostnamectl set-hostname master
